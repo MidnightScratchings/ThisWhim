@@ -1,0 +1,123 @@
+header {
+	background-color: black;
+	margin-top: 0px;
+	text-align: center;
+	border-radius: 6px;
+	position: fixed;
+	display: inline-flex;
+	justify-content: center;
+	width: 98%;
+	height: 15%;
+}
+
+header h1 {
+	color: white;
+	font-family: 'Sacramento', cursive;
+	font-size: 50px;
+	padding: 5px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+h3 {
+	text-align: center;
+	font-size: 30px;
+}
+
+h6 {
+	text-align: center;
+	font-size: 20px;
+}
+
+img:hover {
+	-webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+a:hover {
+	-webkit-transform: scale(1.22);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2) ease;
+    transition: all 0.2s ease;
+    color: #b30000;
+}
+
+.tab {
+	background-color: gray;
+	text-align: center;
+	width: 25%;
+	height: 50px;
+	border-radius: 6px;
+	margin-top: 95px;
+	margin-left: 6%;
+	display: inline-flex;
+	justify-content: center;
+	align-content: center;
+	flex-wrap: nowrap;
+}
+
+.tab a {
+	align-self: center;
+	font-family: 'Crete Round', serif;
+}
+
+.main {
+	background-color: white;
+	width: 90%;
+	border-radius: 6px;
+	border: 8px solid black;
+	margin-top: 20px;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+.main p {
+	color: black;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 30px;
+	display: inline-flex;
+	flex-direction: column;
+}
+
+.main #highlight {
+	color: #b30000;
+	font-weight: bold;
+}
+
+.main #section {
+	color: #b30000;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#gamePlay {
+	width: 500px;
+	height: 500px;
+	display: block;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#win {
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#lose {
+	width: 200px;
+	height: 200px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
